@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="191.361" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/kisanforum/Downloads/VisitorRegistration/target/test-classes:/Users/kisanforum/Downloads/VisitorRegistration/target/classes:/Users/kisanforum/.m2/repository/org/seleniumhq/selenium/selenium-java/4.39.0/selenium-java-4.39.0.jar:/Users/kisanforum/.m2/repository/org/seleniumhq/selenium/selenium-api/4.39.0/selenium-api-4.39.0.jar:/Users/kisanforum/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/kisanforum/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.39.0/selenium-chrome-driver-4.39.0.jar:/Users/kisanforum/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/kisanforum/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.39.0/selenium-chromium-driver-4.39.0.jar:/Users/kisanforum/.m2/repository/org/seleniumhq/selenium/selenium-json/4.39.0/selenium-json-4.39.0.jar:/Users/kisanforum/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.39.0/selenium-manager-4.39.0.jar:/Users/kisanforum/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v141/4.39.0/selenium-devtools-v141-4.39.0.jar:/Users/kisanforum/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v142/4.39.0/selenium-devtools-v142-4.39.0.jar:/Users/kisanforum/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v143/4.39.0/selenium-devtools-v143-4.39.0.jar:/Users/kisanforum/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.39.0/selenium-edge-driver-4.39.0.jar:/Users/kisanforum/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.39.0/selenium-firefox-driver-4.39.0.jar:/Users/kisanforum/.m2/repository/org/seleniumhq/selenium/selenium-http/4.39.0/selenium-http-4.39.0.jar:/Users/kisanforum/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.39.0/selenium-ie-driver-4.39.0.jar:/Users/kisanforum/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.39.0/selenium-remote-driver-4.39.0.jar:/Users/kisanforum/.m2/repository/com/google/guava/guava/33.5.0-jre/guava-33.5.0-jre.jar:/Users/kisanforum/.m2/repository/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/Users/kisanforum/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/kisanforum/.m2/repository/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.jar:/Users/kisanforum/.m2/repository/com/google/j2objc/j2objc-annotations/3.1/j2objc-annotations-3.1.jar:/Users/kisanforum/.m2/repository/io/opentelemetry/opentelemetry-api/1.56.0/opentelemetry-api-1.56.0.jar:/Users/kisanforum/.m2/repository/io/opentelemetry/opentelemetry-context/1.56.0/opentelemetry-context-1.56.0.jar:/Users/kisanforum/.m2/repository/io/opentelemetry/opentelemetry-common/1.56.0/opentelemetry-common-1.56.0.jar:/Users/kisanforum/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.56.0/opentelemetry-exporter-logging-1.56.0.jar:/Users/kisanforum/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.56.0/opentelemetry-sdk-common-1.56.0.jar:/Users/kisanforum/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.56.0/opentelemetry-sdk-extension-autoconfigure-spi-1.56.0.jar:/Users/kisanforum/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.56.0/opentelemetry-sdk-extension-autoconfigure-1.56.0.jar:/Users/kisanforum/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.56.0/opentelemetry-sdk-trace-1.56.0.jar:/Users/kisanforum/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.56.0/opentelemetry-sdk-1.56.0.jar:/Users/kisanforum/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.56.0/opentelemetry-sdk-metrics-1.56.0.jar:/Users/kisanforum/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.56.0/opentelemetry-sdk-logs-1.56.0.jar:/Users/kisanforum/.m2/repository/net/bytebuddy/byte-buddy/1.18.2/byte-buddy-1.18.2.jar:/Users/kisanforum/.m2/repository/org/seleniumhq/selenium/selenium-os/4.39.0/selenium-os-4.39.0.jar:/Users/kisanforum/.m2/repository/org/apache/commons/commons-exec/1.6.0/commons-exec-1.6.0.jar:/Users/kisanforum/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.39.0/selenium-safari-driver-4.39.0.jar:/Users/kisanforum/.m2/repository/org/seleniumhq/selenium/selenium-support/4.39.0/selenium-support-4.39.0.jar:/Users/kisanforum/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/Users/kisanforum/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/kisanforum/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/kisanforum/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/kisanforum/.m2/repository/com/browserstack/browserstack-java-sdk/1.25.0/browserstack-java-sdk-1.25.0.jar:"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="cucumber.execution.parallel.config.fixed.parallelism" value="1"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="OBSERVABILITY_BUILD_HASHED_ID" value="kiahadcagvrqiulamkkianae3slzvjyxyalh2sop"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="cucumber.execution.parallel.enabled" value="true"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="junit.jupiter.execution.parallel.config.fixed.max-pool-size" value="1"/>
+    <property name="setUp@0" value="0"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_21.0.6.v20250130-0529/jre/lib"/>
+    <property name="OBSERVABILITY_ALLOW_SCREENSHOTS" value="true"/>
+    <property name="sun.java.command" value="/Users/kisanforum/Downloads/VisitorRegistration/target/surefire/surefirebooter-20260112185401463_3.jar /Users/kisanforum/Downloads/VisitorRegistration/target/surefire 2026-01-12T18-54-01_078-jvmRun1 surefire-20260112185401463_1tmp surefire_0-20260112185401463_2tmp"/>
+    <property name="BROWSERSTACK_TESTHUB_JWT" value="eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJicm93c2Vyc3RhY2tfb2IiLCJzdWIiOiIxMDM2NTAzNCIsImdyb3VwX2lkIjoxMDI3NjgxMSwidXNlcl9pZCI6MTAzNjUwMzQsImJ1aWxkX2hhc2hlZF9pZCI6ImtpYWhhZGNhZ3ZycWl1bGFta2tpYW5hZTNzbHp2anl4eWFsaDJzb3AiLCJwcm9qZWN0X25hbWUiOiJCcm93c2VyU3RhY2sgU2FtcGxlIiwiaG9va19hc190ZXN0IjoiMSIsImJ1aWxkX25hbWUiOiJicm93c2Vyc3RhY2sgYnVpbGQiLCJwcm9kdWN0X21hcCI6IntcIm9ic2VydmFiaWxpdHlcIjp0cnVlLFwiYXV0b21hdGVcIjp0cnVlLFwib3JpZ2luRnJvbVByb2R1Y3RNYXBcIjpcIkF1dG9tYXRlXCIsXCJic3RhY2tBdXRvbWF0aW9uXCI6dHJ1ZSxcImNhZFwiOnRydWUsXCJub25TREtcIjpmYWxzZSxcImFjY2Vzc2liaWxpdHlBdXRvRW5hYmxlZFwiOnRydWV9IiwiZ3JyX3JlZ2lvbiI6IiIsImlzX2xvd192b2x1bWUiOmZhbHNlLCJpc19sY25jX2V2ZW50IjpmYWxzZSwiaXNfbHRzX2V2ZW50IjpmYWxzZSwic2lnbmluZ19rZXlfaGFzaCI6IjM3YzExMzFlNGIyZTc0M2M3NjZlMWQ3MGJmNWYyYjU3ZGM2OWIxOTVkMzAwZTMyYWU4ZDAyMzEyMGE0YTZkOTciLCJpYXQiOjE3NjgyMjQzMjAsImV4cCI6MTc2ODU2OTkyMH0.vxIPyCLS1fzMlfw1ZaSSMmPJ8QUmSAYcrw8Sa2VZtgw"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/kisanforum/Downloads/VisitorRegistration/target/test-classes:/Users/kisanforum/Downloads/VisitorRegistration/target/classes:/Users/kisanforum/.m2/repository/org/seleniumhq/selenium/selenium-java/4.39.0/selenium-java-4.39.0.jar:/Users/kisanforum/.m2/repository/org/seleniumhq/selenium/selenium-api/4.39.0/selenium-api-4.39.0.jar:/Users/kisanforum/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/kisanforum/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.39.0/selenium-chrome-driver-4.39.0.jar:/Users/kisanforum/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/kisanforum/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.39.0/selenium-chromium-driver-4.39.0.jar:/Users/kisanforum/.m2/repository/org/seleniumhq/selenium/selenium-json/4.39.0/selenium-json-4.39.0.jar:/Users/kisanforum/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.39.0/selenium-manager-4.39.0.jar:/Users/kisanforum/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v141/4.39.0/selenium-devtools-v141-4.39.0.jar:/Users/kisanforum/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v142/4.39.0/selenium-devtools-v142-4.39.0.jar:/Users/kisanforum/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v143/4.39.0/selenium-devtools-v143-4.39.0.jar:/Users/kisanforum/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.39.0/selenium-edge-driver-4.39.0.jar:/Users/kisanforum/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.39.0/selenium-firefox-driver-4.39.0.jar:/Users/kisanforum/.m2/repository/org/seleniumhq/selenium/selenium-http/4.39.0/selenium-http-4.39.0.jar:/Users/kisanforum/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.39.0/selenium-ie-driver-4.39.0.jar:/Users/kisanforum/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.39.0/selenium-remote-driver-4.39.0.jar:/Users/kisanforum/.m2/repository/com/google/guava/guava/33.5.0-jre/guava-33.5.0-jre.jar:/Users/kisanforum/.m2/repository/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/Users/kisanforum/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/kisanforum/.m2/repository/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.jar:/Users/kisanforum/.m2/repository/com/google/j2objc/j2objc-annotations/3.1/j2objc-annotations-3.1.jar:/Users/kisanforum/.m2/repository/io/opentelemetry/opentelemetry-api/1.56.0/opentelemetry-api-1.56.0.jar:/Users/kisanforum/.m2/repository/io/opentelemetry/opentelemetry-context/1.56.0/opentelemetry-context-1.56.0.jar:/Users/kisanforum/.m2/repository/io/opentelemetry/opentelemetry-common/1.56.0/opentelemetry-common-1.56.0.jar:/Users/kisanforum/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.56.0/opentelemetry-exporter-logging-1.56.0.jar:/Users/kisanforum/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.56.0/opentelemetry-sdk-common-1.56.0.jar:/Users/kisanforum/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.56.0/opentelemetry-sdk-extension-autoconfigure-spi-1.56.0.jar:/Users/kisanforum/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.56.0/opentelemetry-sdk-extension-autoconfigure-1.56.0.jar:/Users/kisanforum/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.56.0/opentelemetry-sdk-trace-1.56.0.jar:/Users/kisanforum/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.56.0/opentelemetry-sdk-1.56.0.jar:/Users/kisanforum/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.56.0/opentelemetry-sdk-metrics-1.56.0.jar:/Users/kisanforum/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.56.0/opentelemetry-sdk-logs-1.56.0.jar:/Users/kisanforum/.m2/repository/net/bytebuddy/byte-buddy/1.18.2/byte-buddy-1.18.2.jar:/Users/kisanforum/.m2/repository/org/seleniumhq/selenium/selenium-os/4.39.0/selenium-os-4.39.0.jar:/Users/kisanforum/.m2/repository/org/apache/commons/commons-exec/1.6.0/commons-exec-1.6.0.jar:/Users/kisanforum/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.39.0/selenium-safari-driver-4.39.0.jar:/Users/kisanforum/.m2/repository/org/seleniumhq/selenium/selenium-support/4.39.0/selenium-support-4.39.0.jar:/Users/kisanforum/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/Users/kisanforum/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/kisanforum/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/kisanforum/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/kisanforum/.m2/repository/com/browserstack/browserstack-java-sdk/1.25.0/browserstack-java-sdk-1.25.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/kisanforum"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_21.0.6.v20250130-0529/jre"/>
+    <property name="junit.jupiter.execution.parallel.mode.default" value="same_thread"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/kisanforum/Downloads/VisitorRegistration"/>
+    <property name="style.color" value="always"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/kisanforum/Downloads/VisitorRegistration/target/surefire/surefirebooter-20260112185401463_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="21.0.6+7-LTS"/>
+    <property name="user.name" value="kisanforum"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="otel.metrics.exporter" value="none"/>
+    <property name="os.version" value="26.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="otel.traces.exporter" value="none"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="junit.jupiter.execution.parallel.mode.classes.default" value="concurrent"/>
+    <property name="junit.jupiter.execution.parallel.config.strategy" value="fixed"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-21.0.6+7"/>
+    <property name="junit.jupiter.execution.parallel.enabled" value="true"/>
+    <property name="localRepository" value="/Users/kisanforum/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="otel.logs.exporter" value="none"/>
+    <property name="java.io.tmpdir" value="/var/folders/39/d74961b522z_h45xqrsnsh280000gn/T/"/>
+    <property name="BROWSERSTACK_TESTHUB_UUID" value="kiahadcagvrqiulamkkianae3slzvjyxyalh2sop"/>
+    <property name="java.version" value="21.0.6"/>
+    <property name="user.dir" value="/Users/kisanforum/Downloads/VisitorRegistration"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/kisanforum/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="junit.jupiter.execution.parallel.config.fixed.parallelism" value="1"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="21.0.6+7-LTS"/>
+    <property name="cucumber.execution.execution-mode.feature" value="same_thread"/>
+    <property name="cucumber.execution.parallel.config.strategy" value="fixed"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="LoginTest" classname="vregTest.Vreg" time="146.293">
+    <failure message="Expected condition failed: waiting for element to be clickable: By.xpath: //button[@type=&apos;submit&apos;] (tried for 40 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.39.0&apos;, revision: &apos;126f156aee&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;26.1&apos;, java.version: &apos;21.0.6&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities {appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, browserName: chrome, chromedriverArgs: [--adb-port=5038], chromedriverPort: 18086, databaseEnabled: false, desired: {browserName: chrome, chromedriverArgs: [--adb-port=5038], chromedriverPort: 18086, deviceName: android, goog:chromeOptions: {args: [--proxy-bypass-list=&lt;-loopb..., test-type, --proxy-server=http://203.3..., --disable-features=Translate]}, newCommandTimeout: 0, platformName: Android, skipServerInstallation: true, systemPort: 8206, udid: R5CW51Q9YSR}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-S911B, deviceName: R5CW51Q9YSR, deviceScreenDensity: 480, deviceScreenSize: 1080x2340, deviceUDID: R5CW51Q9YSR, goog:chromeOptions: {args: [--proxy-bypass-list=&lt;-loopb..., test-type, --proxy-server=http://203.3..., --disable-features=Translate]}, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 0, optimalHubUrl: hub-apse.browserstack.com, pixelRatio: 3, platform: LINUX, platformName: ANDROID, platformVersion: 13, skipServerInstallation: true, statBarHeight: 81, systemPort: 8206, takesScreenshot: true, udid: R5CW51Q9YSR, viewportRect: {height: 2034, left: 0, top: 81, width: 1080}, warnings: {}, webStorageEnabled: false}&#10;Session ID: e8bd76c7c8c5e1c8b3fd391902bd0bae53d460d0" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for element to be clickable: By.xpath: //button[@type='submit'] (tried for 40 second(s) with 500 milliseconds interval)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '26.1', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, browserName: chrome, chromedriverArgs: [--adb-port=5038], chromedriverPort: 18086, databaseEnabled: false, desired: {browserName: chrome, chromedriverArgs: [--adb-port=5038], chromedriverPort: 18086, deviceName: android, goog:chromeOptions: {args: [--proxy-bypass-list=<-loopb..., test-type, --proxy-server=http://203.3..., --disable-features=Translate]}, newCommandTimeout: 0, platformName: Android, skipServerInstallation: true, systemPort: 8206, udid: R5CW51Q9YSR}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-S911B, deviceName: R5CW51Q9YSR, deviceScreenDensity: 480, deviceScreenSize: 1080x2340, deviceUDID: R5CW51Q9YSR, goog:chromeOptions: {args: [--proxy-bypass-list=<-loopb..., test-type, --proxy-server=http://203.3..., --disable-features=Translate]}, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 0, optimalHubUrl: hub-apse.browserstack.com, pixelRatio: 3, platform: LINUX, platformName: ANDROID, platformVersion: 13, skipServerInstallation: true, statBarHeight: 81, systemPort: 8206, takesScreenshot: true, udid: R5CW51Q9YSR, viewportRect: {height: 2034, left: 0, top: 81, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: e8bd76c7c8c5e1c8b3fd391902bd0bae53d460d0
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at vregTest.Vreg.LoginTest(Vreg.java:137)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+]]></failure>
+    <system-out><![CDATA[User is on the enter mobile page
+Mobile number entered
+Clicked submit button
+Submitted OTP and submittited
+Clicked Buy ticket button on the Home screen
+Added one ticket
+Clicked next button after selecting quantity
+Clicked on the make payment button
+Switched to Razorpay main iframe
+Clicked Card option
+Keyboard closed
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Jan 12, 2026 6:55:21 PM org.openqa.selenium.remote.tracing.opentelemetry.OpenTelemetryTracer createTracer
+INFO: Using OpenTelemetry for tracing
+]]></system-err>
+  </testcase>
+</testsuite>
